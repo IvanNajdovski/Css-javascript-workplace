@@ -1,3 +1,5 @@
+$(document).ready(function () { /* ... */
+
 var smile = document.getElementById("smile-icon");
 var icon = document.getElementById("icon-change");
 
@@ -29,4 +31,7 @@ else if(something < 56){
     smile.setAttribute("xlink:href" , "img/sprite.svg#happy")
     icon.style.backgroundColor = "green";
 }
+
+
+});
 //console.log(c);

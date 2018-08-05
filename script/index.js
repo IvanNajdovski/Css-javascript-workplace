@@ -1,3 +1,5 @@
+$(document).ready(function () { /* ... */
+
 var container = document.getElementById("header");
 var input = document.getElementById("input");
 var buttons = document.getElementById("btn-2");
@@ -78,8 +80,9 @@ buttons.onclick= function () {
     link.setAttribute("href" , `next.html?something=${mood}`)
     //valueOne.innerText = mood;
 };
+});
 
-// var something = 50;
-// localStorage.setItem('items', JSON.stringify(something));
+
+
 
 
