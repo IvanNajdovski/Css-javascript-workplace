@@ -14,33 +14,37 @@ html{
 
 .input{
     background-color:transparent;
+    background-size: cover;
     width: 400px;
     height: 28px;
     -webkit-appearance: none;
     outline: none;
-    //background-color: cyan;
+
 }
 .input::-webkit-slider-runnable-track{
     background: green;
+    background-size: cover !important;
     height: 4px;
     border-radius: 4px;
     transition: .3s;
 }
-/*.input:hover::-webkit-slider-runnable-track{*/
-
+.input:hover::-webkit-slider-runnable-track{
+    background-size: cover;
  /*background: green;*/
-/*}*/
-/*.input:focus::-webkit-slider-runnable-track{*/
+}
+.input:focus::-webkit-slider-runnable-track{
     /*background: green;*/
-/*}*/
+    background-size: cover;
+}
 .input::-webkit-slider-thumb{
     -webkit-appearance: none;
-    background-size: cover;
+
     background: green;
-    width: 28px;
-    height: 28px;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    margin-top: -12px;
+    margin-top: -20px;
     cursor: pointer;
     border:4px solid #fff;
     transition: .3s;
